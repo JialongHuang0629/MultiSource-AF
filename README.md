@@ -3,3 +3,4 @@ MultiSource‑AF is a novel multisource adaptive fusion framework. It  integrate
 contextual cues.
 
 <img width="2560" height="1440" alt="实验绘图_01" src="https://github.com/user-attachments/assets/91d2d323-f6fd-4a02-b5e1-068287d03e63" />
+The datasets were downloaded from https://github.com/danfenghong/ISPRS_S2FL
