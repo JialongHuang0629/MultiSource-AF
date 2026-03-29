@@ -59,7 +59,6 @@ class LearnableHotSpot(nn.Module):
 
 class PseudoWaveletConv(nn.Module):
     """
-    可直接替换旧版的小波卷积模块
     参数:
         channels (int): 输入输出通道数
     """
@@ -151,9 +150,7 @@ class PseudoWaveletConv(nn.Module):
 
 
 class CrossModalityFusionWithWavelet(nn.Module):
-    """
-    在原有架构中插入小波变换模块
-    """
+
     def __init__(self, in_ch_hsi, in_ch_sar, mid_ch=64, out_ch=64, trans_depth=1):
         super().__init__()
         
